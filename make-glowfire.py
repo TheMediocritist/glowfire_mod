@@ -92,7 +92,7 @@ def main():
     # TODO: copy / paste message from build-sdk explaining how to flash firmware
     # currently this shows up as instructions text file in the build directory
     os.chdir(GLOW_DIR)
-    sudo_python('set-startup.py')
+    # sudo_python('set-startup.py')
     install_python_dependencies()
     download_song(SONG1_URL)
     download_song(SONG2_URL)
